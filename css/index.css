@@ -1,0 +1,45 @@
+
+@import url('https://fonts.google.com/specimen/Raleway');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--veryDarkBlue);
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --gradient1: hsl(6, 100%, 80%);
+    --gradient2: hsl(335, 100%, 65%);
+    --paleBlue: hsl(243, 100%, 93%);
+    --grayishBlue: hsl(229, 7%, 55%);
+    --darkBlue: hsl(228, 56%, 26%);
+    --veryDarkBlue: hsl(229, 57%, 11%);
+}
+
+
+.main {
+    border: 1px solid greenyellow;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards__container {
+    border: 1px solid red;
+    width: 800px;
+    height: 300px;
+    padding: 5px;
+}
+
+.cards__cardFile {
+    border: 1px solid white;
+    width: 400px;
+    height: 200px;
+}
